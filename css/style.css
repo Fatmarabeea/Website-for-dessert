@@ -1,0 +1,211 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.home{
+  width: 100%;
+  height: 100vh;
+  background-image: url(../images/background_ph.jpg);
+  background-size: cover;
+
+}
+.header{
+  width: 100%;
+  height: 45px;
+  background-color: rgb(141, 161, 196);
+ 
+}
+.header-list{
+ margin-left: 400px;
+padding-top: 10px;
+}
+ li{
+  display: inline;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  padding-left: 20px;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+ }
+ a:hover li{
+  transform: scale(1.1);
+  color: #000000;
+ }
+a{
+  text-decoration: none;
+}
+.header-icon{margin-left: 1000px;
+  font-size: 25px;
+  margin-top: -26px;}
+  .header-icon li .i1{
+    font-size: 25px;
+    margin-left: 10px;
+  }
+  .header-icon li .i2{
+    font-size: 25px;
+    margin-left: 10px;
+  }
+.header-h{
+display: inline;
+}
+body{
+  background-color: rgb(141, 161, 196);
+}
+.cake{
+  width: 100%;
+  height: auto;
+}
+.title{padding-top: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: lighter;
+}
+.name{
+  font-weight: lighter;
+}
+p{
+    font-size: 17px;
+}
+.container{
+    margin: auto;
+    display: grid;
+    grid-template-columns:repeat(4 , 23%);
+    grid-column-gap: 33px;
+    grid-row-gap: 40px;
+    margin-left: 4px;
+    text-align: center;
+}
+.products {
+  border: 1px solid  rgb(141, 161, 196);
+    /* border: 1px solid  #c6c5c5; */
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px  rgb(50, 51, 52);
+    /* box-shadow: 5px 5px 5px #aeacac; */
+    transition: all 0.3s ease-in-out;
+   
+  }
+  .products:hover {
+    transform: scale(1.1);
+    box-shadow: 10px 10px 10px  rgb(37, 37, 37);
+    /* box-shadow: 10px 10px 10px #888787; */
+  }
+  img{
+    width: 100.25%;
+    border-radius: 10px; 
+  }
+  .edit1 {
+    height: 260px;
+    grid-column: 2/3;
+  }
+  .edit2 {
+    height: 260px;
+    grid-column: 3/4;
+  }
+  .edit3{
+    height: 270px;
+    margin-top: -260px;
+    grid-column: 2/3;
+  }
+  .edit4{
+    height: 270px;
+    margin-top: -260px;
+    grid-column: 3/4;
+  }
+  #content{
+    width: 400px;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.814);
+    border: 2px solid  rgb(245, 246, 247) ;
+    text-align: center;
+    margin: auto;
+    margin-top: 60px;
+    padding-top: 10px;
+    font-weight: lighter;
+    box-shadow: 5px 5px 5px  rgb(50, 51, 52);
+    font-size: 25px;
+  }
+  #butt{
+    width: 300px;
+    height: 60px;
+    background-color:  rgb(228, 113, 56);;
+    border: 2px solid   rgb(228, 113, 56);;
+    box-shadow: 5px 5px 5px  rgb(50, 51, 52);
+    transition: all 0.3s ease-in-out;
+    border-radius:40px ;
+    font-size:20px;
+    color: #fff;
+    margin-left: 520px;
+    margin-top: 20px;
+  }
+  #butt:active{
+    box-shadow: 10px 10px 10px  rgb(37, 37, 37);
+    transform: scale(1.1);
+  }
+  .totalPrice{
+    width: 500px;
+    height: 70px;
+    background-color: rgb(228, 113, 56);
+    color: rgb(255, 255, 255);
+    margin: auto;
+    border: 2px solid  rgb(141, 161, 196) ;
+    border-radius: 10px;
+    margin-top: 20px;
+   
+  }
+  .p{
+    font-size: 30px;
+    margin-top: 10px;
+    font-weight: lighter;
+  }
+  .price{
+    margin-top: -30px;
+    margin-left: 200px;
+  }
+  .mark{
+    font-size: 30px;
+    margin-left: 300px;
+    margin-top: -35px;
+  }
+  .social{
+    width: 100%;
+    height: 30vh;
+  }
+  .icon{
+    width: 500px;
+    height: 100%;
+    margin: auto;
+    margin-left: 500px;
+    padding-top: 50px;
+    padding-left: 40px;
+  }
+  .icon1 ,.icon2 ,.icon3 ,.icon4 ,.icon5{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(228, 113, 56);
+    color: #ffffff;
+    padding-top: 10px;
+   font-size: 29px;
+   box-shadow: 5px 5px 5px  rgb(50, 51, 52);
+  }
+  .icon1{
+   padding-left: 16px;
+  }
+  .icon2{
+   padding-left: 13px;
+  }
+  .icon3{
+   padding-left: 13px;
+  }
+  .icon4{
+   padding-left: 13px;
+  }
+  .icon5{
+   padding-left: 13px;
+  }
+  .icon1:hover , .icon2:hover ,.icon3:hover ,.icon4:hover ,.icon5:hover{
+    background-color: rgb(214, 88, 24);
+    box-shadow: 10px 10px 10px  rgb(37, 37, 37);
+    transform: scale(1.1);
+  }
